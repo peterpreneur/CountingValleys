@@ -16,8 +16,9 @@ class Result {
         int i = 0;
         for (i=0; i < steps; i++) {
             int count = 0;            
-            System.out.println(path.indexof(i));
+            System.out.println(path.indexOf(i));
         }
+		return i;
     }
 
 }
